@@ -209,8 +209,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Cannonball: {fileID: 9023607981366832767, guid: 3b75efe37dbaad142912b82b59050f13, type: 3}
-  enemy: {fileID: 3437142914990269652, guid: ba4571495e157504a8102ed6f52a95f6, type: 3}
-  target: {fileID: 6721799017089535992, guid: ba4571495e157504a8102ed6f52a95f6, type: 3}
+  enemy:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  index: 0
 --- !u!1 &7449910017262079368
 GameObject:
   m_ObjectHideFlags: 0
