@@ -1,5 +1,4 @@
 using UnityEngine;
-using System;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -43,7 +42,7 @@ public class EnemyScript : MonoBehaviour
                 {
                     passed = true;
                     DestroyedEnemy++;
-                    Destroy(gameObject, .1f);
+                    Destroy(gameObject);
                 }
                 else
                 {
@@ -69,7 +68,7 @@ public class EnemyScript : MonoBehaviour
 
         if (Hp <= 0)
         {
-            Destroy(gameObject, .1f);
+            Destroy(gameObject);
             DestroyedEnemy++;
         }
     }

@@ -32,7 +32,7 @@ public class Shooting : MonoBehaviour
 
             if (transform.position == TowerScript.target.transform.position)
             {
-                Destroy(gameObject, .1f);
+                Destroy(gameObject);
                 _Dealing_Damage?.Invoke();
             }
         } else
